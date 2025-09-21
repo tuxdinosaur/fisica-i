@@ -1,0 +1,502 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+@font-face {
+  font-family: 'Satoshi-Light';
+  src: url('./fonts/Satoshi-Light.woff2') format('woff2'),
+       url('./fonts/Satoshi-Light.woff') format('woff'),
+       url('./fonts/Satoshi-Light.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PP-Mori';
+  src: url('./fonts/PP-Mori/PPMori-Regular.otf');
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PP-Mori-Bold';
+  src: url('./fonts/PP-Mori/PPMori-SemiBold.otf');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PP-Neue-Montreal';
+  src: url('./fonts/PP-Neue-Montreal/PPNeueMontreal-Medium.otf');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'PP-Neue-Corp';
+	src: url('./fonts/PP-Neue-Corp/PPNeueCorp-WideMedium.otf');
+	src: url('./fonts/PP-Neue-Corp/PPNeueCorp-ExtendedMedium.otf');
+}
+
+.lora {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.dm-sans-regular {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+	margin: 0px 0px 0px 0px;
+	font-family: 'Satoshi-Light';
+	font-family: 'PP-Mori';
+  	color: #0a0a0a;
+  	background: #1f1f1f;
+  	background: #e5e4e1;
+  	background: #F9F6EE;
+  	background: #fbfbfb;
+  	background: #f2f8fc;
+}
+
+h1 {
+	font-family: 'PP-Neue-Montreal','PP-Mori-Bold', Arial, Helvetica, sans-serif;
+	font-size: 1.8em;
+	color: #135487;
+	font-weight: bolder;
+}
+
+h2 {
+	font-family: 'Lora', Arial, Helvetica, sans-serif;
+	font-family: 'PP-Neue-Corp', Arial, Helvetica, sans-serif;
+	font-size: 1.6em;
+	color: #6a4c93;
+	font-weight: 700;
+	/*text-indent: 20px;*/
+	margin: 35px 0 0;
+	border-left: 10px solid #6a4c93;
+	padding: 0 0 0 15px;
+}
+
+h3 {
+	font-family: 'PP-Mori-Bold', Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	color: #6a4c93;
+	font-weight: normal;
+	/*text-indent: 40px;*/
+}
+
+h4 {
+	font-family: 'PP-Mori-Bold', Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #2F87B5;
+	font-weight: normal;
+	text-indent: 20px;
+}
+
+p {
+	font-family: 'PP-Neue-Montreal','Lora', Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	text-align: start;
+	line-height: 1.2em;
+	text-indent: 20px;
+	font-weight: 400;
+}
+
+pre {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+	font-weight: normal;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+
+section {
+	margin: 100px 0 0;
+}
+
+.table-of-contents {
+	max-width: 400px;
+}
+
+#toc-nav > ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+#toc-nav > ul li {
+	margin-bottom: 10px;
+	border-left: 5px solid #135487;
+	padding: 5px 0 5px 10px;
+}
+
+#toc-nav > ul li a {
+	text-decoration: none;
+	color: #135487;
+	font-family: 'PP-Mori-Bold', Arial, Helvetica, sans-serif;
+	font-size: 1em;
+}
+
+.contenidos {
+	margin: 0 auto;
+	width: 95%;
+	height: auto;
+	border: 0px  solid #ccc;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	font-size: 1em;
+	/*text-align: justify;*/
+	
+}
+
+#contenedor {
+	width: 720px;
+	margin: auto;
+}
+
+img {
+	max-width:100%;
+}
+
+.espacio {
+	color: #FFF;
+}
+
+.flexible {
+	max-width:100%;
+}
+
+.img-act_auto{
+	max-width: 95%;
+	display:block;
+}
+
+.caja_importante{
+    max-width:100%;
+	height:74px;
+	background: url(./importante.jpg) no-repeat center 0%;
+}
+.caja_saber{
+	max-width:100%;
+	height: 74px;
+	background: url(./para_saber-wide.jpg) no-repeat center 0%;
+}
+
+.caja_actividad{
+	width: 100%;
+	height: 74px;
+	background:url(./actividad-wide.jpg) no-repeat center 0%;
+}
+
+.caja_act_2{
+    max-width:100%;
+	height:auto;
+	background:url(./centro-wide.jpg) repeat-y center;
+	padding:5px 0px 10px 0px;
+}
+
+.caja_act_21{
+    max-width:100%;
+	height:auto;
+	background:url(./centro.jpg) repeat-y center;
+	padding: 5px 0px 10px 0px;
+	
+}
+.caja_act_3{
+    max-width:100%;
+	height:40px;
+	background:url(./inferior-wide.jpg) no-repeat center 0%;
+}
+
+.p-caja_cen{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	text-align: center;
+	color:#000;
+	line-height: 1.2em;
+	font-weight: normal;
+	max-width:100%;
+	
+}
+
+.p-caja_cen1{
+	font-family: Arial, Helvetica,    sans-serif;
+	font-size: 1em;
+	text-align: center;
+	color:#000;
+	line-height: 1.2em;
+	font-weight: normal;
+	max-width:auto;
+	width: auto;
+	height:auto ;    
+   margin-left:0%;
+   
+}
+.caja_foro_1{
+    max-width:100%;
+	height:74px;
+	background:url(./foro-wide.jpg) no-repeat center 0%;
+}
+
+.caja_cuest{
+    max-width:100%;
+	height:74px;
+	background:url(../caja/cuestionario.jpg) no-repeat center 0%;
+}
+
+
+
+.caja_lectura{
+    max-width:100%;
+	height:74px;
+	background:url(../caja/lectura.jpg) no-repeat center 0%;
+}
+
+.cabeceraPx{
+	background-image: url(../imagenes/pixel_header.jpg);
+	background-repeat:repeat-x;
+}
+
+.piePx{
+	background-image: url(../imagenes/pixel_footer.jpg);
+	background-repeat:repeat-x;
+}
+
+.ixq {
+	text-align: left;
+}
+
+.chiq {
+	font-family: Arial, Helvetica, sans-serif;
+	
+	font-size: .8em;
+	text-align: justify;
+	
+	font-weight: normal;
+}
+.negritas {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	
+	line-height: 1.2em;
+	font-weight: bold;
+}
+
+.italica {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	
+	line-height: 1.2em;
+	font-style:italic;
+}
+
+ul {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	text-indent: 0px;
+}
+li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 1.2em;
+	font-weight: normal;
+}
+
+.vinetas {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	text-align: left;
+	list-style-image: url(../iconos/bullete_azul.gif);
+	text-indent: 0px;
+}
+
+.novinetas {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	text-align: left;
+	text-indent: 0px;
+	list-style-type:none;
+}
+
+a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	color: #2F87B5;
+}
+a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	color: #2F87B5;
+}
+.citas {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	text-align: justify;
+	line-height: 1em;
+	font-weight: normal;
+}
+
+.centrado {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	text-align: center;
+	line-height: 1.2em;
+	font-weight: normal;
+}
+
+.centrado2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	text-align: center;
+	line-height: 1.2em;
+	font-weight: normal;
+	color:#FFFFFF;
+}
+
+
+.cent2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	text-align: center;
+	line-height: 0.8em;
+	font-weight: normal;
+}
+.citas2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	text-align: left;
+	color: #2F87B5;
+	font-weight: normal;
+}
+.citas3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	text-align: left;
+	color: #000000;
+	font-weight: normal;
+}
+izquierda {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	text-align: left;
+	line-height: 1.2em;
+	font-weight: normal;
+}
+
+derecha {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	text-align: right;
+	line-height: 1.2em;
+	font-weight: normal;
+}
+a.info {
+	position:relative;
+	z-index:24;
+	color:#3e6396;
+	text-decoration:none;
+}
+a.info:hover {
+	z-index:25;
+	/*background-color:#3CABE5;*/
+}
+a.info span {
+    display: none;
+}
+a.info:hover span { /*Estilo de las citas*/
+	display:block;
+	position:absolute;
+	top:1.5em;
+	left:-2.8em;
+	width:170px;
+	border:1px solid #135487;
+	background-color:#EEEEEE;
+	color:#000000;
+	text-align: justify;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.7em;
+	line-height: normal;    /*padding: 5px;*/
+}
+.tab {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+
+	line-height: 1.2em;
+	font-weight: normal;
+}
+.tabcen {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	text-align: center;
+	line-height: .8em;
+	font-weight: normal;
+}
+
+.sinsubrayar {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	color:#3e6396;
+	cursor:pointer;
+}
+
+r {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 1em;
+	text-align: justify;
+	line-height: 1.2em;
+	font-weight: normal;
+}
+.tabcen {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	text-align: center;
+	line-height: 1.5em;
+	font-weight: normal;
+}
+
+.saber {
+   max-width: 290px;
+   margin: auto;
+}
+
+.saber > p {
+   background: #e6f7e5;
+}
+	
+.contenidos p strong {
+}
+
+/* Contenedor de la barra de progreso */
+.progress-container {
+  width: 20%;
+  height: 8px;
+  background: #ccc;
+  position: fixed; /* Fijo en la parte superior */
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  border-radius: 5px;
+}
+
+/* La barra de progreso misma */
+.progress-bar {
+  height: 8px;
+  background: #4CAF50; /* Color verde */
+  background: #000;
+  width: 0%; /* Inicia en 0% */
+  border-radius: 5px;
+}
