@@ -170,6 +170,10 @@ section {
 	margin: auto;
 }
 
+footer {
+	margin-top: 90px;
+}
+
 img {
 	max-width:100%;
 }
@@ -274,7 +278,7 @@ img {
 }
 
 .piePx{
-	background-image: url(../imagenes/pixel_footer.jpg);
+	background-image: url(./pixel_footer.jpg);
 	background-repeat:repeat-x;
 }
 
