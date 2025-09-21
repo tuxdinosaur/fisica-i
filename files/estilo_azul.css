@@ -120,12 +120,20 @@ pre {
 	margin-top:0px;
 }
 
+strong {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
 section {
 	margin: 100px 0 0;
 }
 
 .table-of-contents {
 	max-width: 400px;
+	background: #ecf2f7;
+	padding: 15px 20px;
+	border-radius: 15px;
 }
 
 #toc-nav > ul {
